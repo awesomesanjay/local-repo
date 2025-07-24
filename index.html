@@ -1,15 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>THIS IS MY WEBSITE</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My website is about how to develope " />
+    <title>First website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <caption>
+      This is my first website
+    </caption>
+    <h1>Welcome to my website</h1>
+    <h2>I am constructing my website</h2>
     <p>
-        Hi I am Sanjay
+      Lorem ipsum <br />dolor sit amet consectetur, <br />adipisicing elit.
+      Nostrum, quas.
     </p>
-</body>
+    <a
+      target="_blank"
+      href="https://www.codewithharry.com/blogpost/html-cheatsheet"
+      >Code with harry HTML cheatsheets</a
+    >
+    <hr>
+    <img height="200" src="image.jpg_large" alt="Rebel star Prabhas" />
+    <table border="1">
+        <caption>Employee Details</caption>
+    <colgroup>
+        <col style="background-color: green;"
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Work</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="2">Sanjay</td>
+        <td>18</td>
+      </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Total Employees</td>
+            <td>3</td>
+        </tr>
+    </tfoot>
+    </table>
+    <script src="script.js"></script>
+    <pre>
+      <code>
+          # A simple Python program to print "Hello, World!"
+            def main():
+                print("Hello, World!")
+            if __name__ == "__main__":
+            main()
+      </code>
+    </pre>
+    <hr>
+    <ol type="A">
+        <li>Sanjay</li>
+        <li>Raju</li>
+    </ol>
+    <hr>
+    <form action="post">
+        <div>
+            <label for="Username">Enter the Username</label>
+            <input type="text" id="Username" name="Username" autofocus>
+            <br>
+            <label for="password">Enter the password</label>
+            <input type="password" id="password" name="password" placeholder="Enter the Password"
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" placeholder="Male">
+            <label for="gender">Male</label>
+            <input type="radio" id="female" name="gender" placeholder="Female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="comment">Commnet:</label>
+            <br>
+            <textarea name="Comment" id="commnet"></textarea>
+        </div>
+        <div>
+            <select name="Fruits" id="fruits">
+                <option value="apple">apple</option>
+                <option value="orange">orange</option>
+            </select>
+        </div>
+    </form> 
+  </body>
 </html>
